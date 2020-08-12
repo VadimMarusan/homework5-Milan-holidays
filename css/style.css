@@ -43,6 +43,10 @@ a {
 
 .container-contacts:hover span {
     color: #F26522;
+}
+
+.container-contacts:hover a {
+    color: #F26522;
     cursor: pointer;
 }
 
