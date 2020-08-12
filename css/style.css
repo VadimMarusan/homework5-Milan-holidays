@@ -1,0 +1,207 @@
+body {
+    height: 768px;
+    background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 46px;
+}
+
+.container-header-logo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 150px;
+}
+
+.logo-img {
+    width: 53px;
+    height: 47px;
+    background: url(../images/milan-logo.png);
+    background-repeat: no-repeat;
+}
+
+.container-header-logo:hover .logo-img {
+    background: url(../images/logo2.png);
+}
+
+.container-header-logo:hover .container-logo-text span {
+    color: #F26522;
+}
+
+.container-contacts:hover span {
+    color: #F26522;
+    cursor: pointer;
+}
+
+.container-logo-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.logo-text-milan {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.logo-text-holidays {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.container-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header-email {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.header-tel-number {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+    margin-top: 17px;
+}
+
+.box-item-img-container {
+    width: 300px;
+    height: 220px;
+    background: linear-gradient(to right, red, orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.box-item img {
+    width: 297px;
+    height: 217px;
+}
+
+
+.box-item:hover > span {
+    color: #F26522;
+    transition: color 0.5s ease-in-out;
+}
+
+.container-price-view-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.img-hover {
+    width: 295px;
+    height: 55px;
+    background: #F26522;
+    position: absolute;
+    margin-top: -58px;
+    margin-left: 2px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    opacity: 0;
+}
+
+
+.box-item:hover .img-hover {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+.item-view-details:after {
+    content: " \003E";
+}
+
+.item-from {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.item-price {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.item-view-details {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.item-description {
+    width: 300px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-copyright {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
